@@ -1,1 +1,1 @@
-web: gunicorn albumy.__init__:app --log-file -
+web: gunicorn albumy.wsgi:app --log-file -
